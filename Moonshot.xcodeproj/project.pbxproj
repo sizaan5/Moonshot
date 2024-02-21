@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		338AB2372B85D3510065E75A /* CrewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338AB2362B85D3510065E75A /* CrewView.swift */; };
+		338AB23A2B85E62A0065E75A /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338AB2392B85E62A0065E75A /* GridView.swift */; };
+		338AB23C2B85E6340065E75A /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338AB23B2B85E6340065E75A /* ListView.swift */; };
 		33C87C482B835AC70070C8B9 /* MoonshotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C87C472B835AC70070C8B9 /* MoonshotApp.swift */; };
 		33C87C4A2B835AC70070C8B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C87C492B835AC70070C8B9 /* ContentView.swift */; };
 		33C87C4C2B835AC90070C8B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33C87C4B2B835AC90070C8B9 /* Assets.xcassets */; };
@@ -24,6 +26,8 @@
 
 /* Begin PBXFileReference section */
 		338AB2362B85D3510065E75A /* CrewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrewView.swift; sourceTree = "<group>"; };
+		338AB2392B85E62A0065E75A /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		338AB23B2B85E6340065E75A /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		33C87C442B835AC70070C8B9 /* Moonshot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moonshot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33C87C472B835AC70070C8B9 /* MoonshotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonshotApp.swift; sourceTree = "<group>"; };
 		33C87C492B835AC70070C8B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -89,6 +93,15 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		338AB2382B85E60E0065E75A /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				338AB2392B85E62A0065E75A /* GridView.swift */,
+				338AB23B2B85E6340065E75A /* ListView.swift */,
+			);
+			path = Layouts;
+			sourceTree = "<group>";
+		};
 		33C87C3B2B835AC70070C8B9 = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +121,7 @@
 		33C87C462B835AC70070C8B9 /* Moonshot */ = {
 			isa = PBXGroup;
 			children = (
+				338AB2382B85E60E0065E75A /* Layouts */,
 				338AB2332B85CB5E0065E75A /* Models */,
 				338AB2322B85CB3E0065E75A /* Utilities */,
 				338AB2302B85CB230065E75A /* Resources */,
@@ -206,6 +220,8 @@
 				33C87C4A2B835AC70070C8B9 /* ContentView.swift in Sources */,
 				33C87C482B835AC70070C8B9 /* MoonshotApp.swift in Sources */,
 				33C87D0F2B8477BF0070C8B9 /* Mission.swift in Sources */,
+				338AB23C2B85E6340065E75A /* ListView.swift in Sources */,
+				338AB23A2B85E62A0065E75A /* GridView.swift in Sources */,
 				33C87D0D2B84727F0070C8B9 /* Bundle-Decodable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
