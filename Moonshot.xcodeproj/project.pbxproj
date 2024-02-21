@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		338AB2372B85D3510065E75A /* CrewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338AB2362B85D3510065E75A /* CrewView.swift */; };
 		33C87C482B835AC70070C8B9 /* MoonshotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C87C472B835AC70070C8B9 /* MoonshotApp.swift */; };
 		33C87C4A2B835AC70070C8B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C87C492B835AC70070C8B9 /* ContentView.swift */; };
 		33C87C4C2B835AC90070C8B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33C87C4B2B835AC90070C8B9 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		338AB2362B85D3510065E75A /* CrewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrewView.swift; sourceTree = "<group>"; };
 		33C87C442B835AC70070C8B9 /* Moonshot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moonshot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33C87C472B835AC70070C8B9 /* MoonshotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonshotApp.swift; sourceTree = "<group>"; };
 		33C87C492B835AC70070C8B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				33C87D142B84AAF50070C8B9 /* AstronautView.swift */,
 				33C87D122B84A4560070C8B9 /* MissionView.swift */,
 				33C87C492B835AC70070C8B9 /* ContentView.swift */,
+				338AB2362B85D3510065E75A /* CrewView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				33C87D132B84A4560070C8B9 /* MissionView.swift in Sources */,
+				338AB2372B85D3510065E75A /* CrewView.swift in Sources */,
 				33C87D0B2B84704F0070C8B9 /* Astronaut.swift in Sources */,
 				33C87D152B84AAF50070C8B9 /* AstronautView.swift in Sources */,
 				33C87D112B8480A00070C8B9 /* Color-Theme.swift in Sources */,
